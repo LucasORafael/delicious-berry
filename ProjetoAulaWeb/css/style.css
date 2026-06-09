@@ -1,0 +1,42 @@
+/* Altera a cor de todos os links da navbar para preto */
+.navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+/* Altera a cor dos itens do dropdown para preto */
+.dropdown-menu .dropdown-item {
+  color: #000 !important;
+}
+
+.berry-brand {
+  color: #B22222 !important; /* Berry red */
+  font-family: 'Comic Sans MS', 'Segoe Script', cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(178, 34, 34, 0.3);
+  transition: color 0.3s ease;
+}
+
+.berry-brand:hover {
+  color: #8B0000 !important; /* um tom mais escuro ao passar o mouse */
+}
+
+
+
+/* Botão de login personalizado */
+.btn-berry {
+  background-color: #d94f70;
+  color: white;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-berry:hover {
+  background-color: #b93c5d;
+  transform: scale(1.05);
+  color: #fff;
+}
